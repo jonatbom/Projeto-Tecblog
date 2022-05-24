@@ -7,13 +7,13 @@
 body {
     font-size: 1em;
     font-family: "trebuchet MS", Helvetica, sans-serif;
-    background: #e6e6e6;
+    background: #BDBDBD;
 }
 
 /* *** Layout *** */
 
 #area-cabecalho{
-   background-color: #f7b600; 
+   background-color: #0010a5ab; 
    padding: 15px;
    text-align: center;
    margin: 0px auto;
@@ -30,9 +30,8 @@ body {
 }
 
 #area-lateral {
-    margin-top: 10px;
-    
-    
+    margin-top: 1px;
+
 }
 
 
@@ -52,9 +51,10 @@ p {
 }
 
 .conteudo-lateral {
-    background: white;
+    background: rgb(255, 255, 255);
     padding: 10px;
     margin-bottom: 5px;
+    
 }
 
 .postagem {
@@ -62,9 +62,19 @@ p {
     margin-bottom: 20px;
     background: white;
 }
+ .postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+ }
 
 .leia {
     background: rgb(255, 255, 255);
+}
+
+.jon {
+    width: 240px;
+    margin: 1px;
+    float: right;
 }
 
 #rodape {
@@ -86,6 +96,7 @@ a {
 a:link, a:visited {
     color: #f7b600;
     
+    
 }
 
 a:hover {
@@ -95,13 +106,14 @@ a:hover {
 
 }
 
-#area-cabecalho a:link, #area-cabeçalho a:visited {
+#area-cabecalho a:link, #area-cabecalho a:visited {
     color: #FFF;
     padding: 8px 12px;
+    text-decoration: none;
 }
 
 #area-cabecalho a:hover {
-    color: #ffc400;
+    color: #000000;
     background: #FFF;
     text-decoration: none;
 
@@ -111,17 +123,17 @@ a:hover {
 /* *** Formatações Gerais *** */
 
 h1 {
-    color: #4e4e4e;
+    color: #000000;
     font-size: 2.5em;
 }
 
 h2 {
-    color: #f7b600;
+    color: #2E2EFE;
 }
 
 h3 {
-    color: #565656;
-    background: #ccc;
+    color: #000000;
+    background: #0010a5ab;
     padding: 5px;
 }
 
