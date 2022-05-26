@@ -5,15 +5,20 @@
 }
 
 body {
+    backface-visibility: hidden;
+    background-image: url(imagens/Jonatec2.png); 
+    background-repeat: repeat;
+    background-position: 300%;
+    background-attachment: scroll;
     font-size: 1em;
     font-family: "trebuchet MS", Helvetica, sans-serif;
-    background: #BDBDBD;
+     
 }
 
 /* *** Layout *** */
 
 #area-cabecalho{
-   background-color: #0010a5ab; 
+   background-color: #0010a5; 
    padding: 15px;
    text-align: center;
    margin: 0px auto;
@@ -21,12 +26,14 @@ body {
 
 #area-logo, #area-menu{
     padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #area-principal {
     width: 920px;
     margin: 0px auto;
     padding: 15px;
+   
 }
 
 #area-lateral {
@@ -123,18 +130,21 @@ a:hover {
 /* *** Formatações Gerais *** */
 
 h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #000000;
     font-size: 2.5em;
 }
 
 h2 {
-    color: #2E2EFE;
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h3 {
     color: #000000;
     background: #0010a5ab;
     padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .branco {
