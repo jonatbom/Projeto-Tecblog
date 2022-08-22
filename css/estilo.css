@@ -91,7 +91,10 @@ p {
     padding: 15px;
     background: #CCC;
 }
-
+ ul {
+    width: 500px;
+    
+ }
 
 
 
@@ -130,14 +133,14 @@ a:hover {
 .conteudo-lateral a:link, .conteudo-lateral a:visited {
     color: #000000;
     line-height: 1em;
-    background: #ffffff;
+    background: url(../imagens/menu.png) repeat-x left;
     text-decoration: none;
     font-weight: bold;
 }
 
 .conteudo-lateral a:hover {
     padding: 2px 4px;
-    background: #5263f5;
+    background: url(../imagens/menu.png) repeat-y right;
     text-decoration: solid;
 }
 
