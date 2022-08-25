@@ -8,7 +8,7 @@ body {
     backface-visibility: hidden;
     background-image: url(imagens/Jonatec2.png); 
     background-repeat: repeat;
-    background-position: 300%;
+    background-position: 500%;
     background-attachment: scroll;
     font-size: 2vw;
     font-family: "trebuchet MS", Helvetica, sans-serif;
@@ -47,13 +47,15 @@ p {
 }
 
 #area-postagens {
-    width: 660px;
+    width: 630px;
     float: left;
+    text-align: center;
 }
 
 #area-lateral {
-    width: 240px;
+    width: 270px;
     float: right;
+    
    
 }
 
@@ -66,8 +68,8 @@ p {
 }
 
 .postagem {
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
     background: white;
 }
  .postagem-lateral {
@@ -80,7 +82,7 @@ p {
 }
 
 .jon {
-    width: 240px;
+    width: 270px;
     margin: 1px;
     float: right;
 }
@@ -131,16 +133,16 @@ a:hover {
 }
 
 .conteudo-lateral a:link, .conteudo-lateral a:visited {
-    color: #000000;
+    color: #ff0000;
     line-height: 1em;
-    background: url(../imagens/menu.png) repeat-x left;
+    background: #000000;
     text-decoration: none;
     font-weight: bold;
 }
 
 .conteudo-lateral a:hover {
     padding: 2px 4px;
-    background: url(../imagens/menu.png) repeat-y right;
+    background: #7380f8;
     text-decoration: solid;
 }
 
@@ -176,3 +178,5 @@ h3 {
     display: block;
     margin-bottom: 10px;
 }
+
+/* *** Formatação Página *** */
