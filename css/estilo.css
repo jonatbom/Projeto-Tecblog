@@ -12,13 +12,21 @@ body {
     background-attachment: scroll;
     font-size: 2vw;
     font-family: "trebuchet MS", Helvetica, sans-serif;
+<<<<<<< HEAD
      
+=======
+    background: #e6e6e6;
+>>>>>>> parent of e85f43d (Aula 51 fim do projeto)
 }
 
 /* *** Layout *** */
 
 #area-cabecalho{
+<<<<<<< HEAD
    background-color: #0010a5; 
+=======
+   background-color: #f7b600; 
+>>>>>>> parent of e85f43d (Aula 51 fim do projeto)
    padding: 15px;
    text-align: center;
    margin: 0px auto;
@@ -37,8 +45,9 @@ body {
 }
 
 #area-lateral {
-    margin-top: 1px;
-
+    margin-top: 10px;
+    
+    
 }
 
 
@@ -60,11 +69,14 @@ p {
 }
 
 .conteudo-lateral {
-    background: rgb(255, 255, 255);
+    background: white;
     padding: 10px;
     margin-bottom: 5px;
+<<<<<<< HEAD
     font-family: Arial, Helvetica, sans-serif;
     
+=======
+>>>>>>> parent of e85f43d (Aula 51 fim do projeto)
 }
 
 .postagem {
@@ -72,21 +84,20 @@ p {
     margin-bottom: 10px;
     background: white;
 }
- .postagem-lateral {
-    font-size: 0.8em;
-    padding: 5px;
- }
 
 .leia {
     background: rgb(255, 255, 255);
 }
 
+<<<<<<< HEAD
 .jon {
     width: 270px;
     margin: 1px;
     float: right;
 }
 
+=======
+>>>>>>> parent of e85f43d (Aula 51 fim do projeto)
 #rodape {
     clear: both;
     text-align: center;
@@ -109,7 +120,6 @@ a {
 a:link, a:visited {
     color: #e60101;
     
-    
 }
 
 a:hover {
@@ -119,14 +129,13 @@ a:hover {
 
 }
 
-#area-cabecalho a:link, #area-cabecalho a:visited {
+#area-cabecalho a:link, #area-cabeçalho a:visited {
     color: #FFF;
     padding: 8px 12px;
-    text-decoration: none;
 }
 
 #area-cabecalho a:hover {
-    color: #000000;
+    color: #ffc400;
     background: #FFF;
     text-decoration: none;
 
@@ -150,19 +159,27 @@ a:hover {
 /* *** Formatações Gerais *** */
 
 h1 {
+<<<<<<< HEAD
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #000000;
+=======
+    color: #4e4e4e;
+>>>>>>> parent of e85f43d (Aula 51 fim do projeto)
     font-size: 2.5em;
 }
 
 h2 {
+<<<<<<< HEAD
     color: #000000;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+=======
+    color: #f7b600;
+>>>>>>> parent of e85f43d (Aula 51 fim do projeto)
 }
 
 h3 {
-    color: #000000;
-    background: #0010a5ab;
+    color: #565656;
+    background: #ccc;
     padding: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
