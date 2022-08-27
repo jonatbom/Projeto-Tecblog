@@ -125,6 +125,19 @@ a:hover {
 
 }
 
+#area-link a:link, #area-link a:visited {
+    color: rgb(0, 0, 0);
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+#area-link a:hover {
+    color: #ffffff;
+    background: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
 
 /* *** Formatações Gerais *** */
 
