@@ -14,7 +14,7 @@ body {
      
 }
 
-/* *** Layout *** */
+        /* *** Layout *** */
 
 #area-cabecalho{
    background-color: #0010a5; 
@@ -93,7 +93,7 @@ p {
 
 
 
-/* *** Formatação Menu *** */
+        /* *** Formatação Menu *** */
 
 a {
     text-decoration: none;
@@ -139,7 +139,7 @@ a:hover {
 }
 
 
-/* *** Formatações Gerais *** */
+    /* *** Formatações Gerais *** */
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -172,4 +172,4 @@ h3 {
 }
 }
 
-/* *** Formatação Página *** */
+            /* *** Formatação Página *** */
