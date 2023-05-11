@@ -34,6 +34,12 @@ body {
     padding: 15px;
    
 }
+@media screen and (max-width: 768px) {
+    #area-lateral {
+        width: 100%;
+        padding: 0%;
+    }  
+}
 
 #area-lateral {
     margin-top: 1px;
@@ -170,6 +176,12 @@ h3 {
     display: block;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    #area-postagens #area-lateral {
+        width: 100%;
+        padding: 0%;
+    }  
 }
 
             /* *** Formatação Página *** */
